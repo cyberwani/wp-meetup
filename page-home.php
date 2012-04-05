@@ -6,6 +6,7 @@
 get_header(); ?>
 
 <header class="home">
+
     <div class="header-overlay"></div>
     <div class="header-people-bg">
     <?php echo meetup_people_display(); ?>
@@ -16,16 +17,16 @@ get_header(); ?>
 	<div class="row" style="position:relative;z-index:20;">
 
         <div class="twelvecol">
+
             <h1 class="home-title">WordPress Zurich Meetup</h1>
             <h3 class="home-tagline">Join <strong><?php echo get_option('meetup_people_count'); ?></strong> awesome people for everything related to WordPress. <a href="http://www.meetup.com/WordPress-Zurich/">Sign up here</a>.</h3>
-
-
 
         </div>
 
         </div>
 
     <div>
+
 </header>
 
 <div class="container" id="content">
