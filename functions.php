@@ -195,7 +195,12 @@ function meetup_recentwork() {
 
         }
 
-        $recentwork[] = array( 'url' => $url, 'img' => $img, 'id'=> $id);
+        if ((strpos($img, '.jpg') !== false) || strpos($img, '.png') !== false) {
+
+            $recentwork[] = array( 'url' => $url, 'img' => $img, 'id'=> $id);
+
+        }
+
         $url = '';
         $img = '';
     }
